@@ -31,3 +31,55 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Logs
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações locais e variáveis
+.env
+
+# Docker
+db-data/
+
+# Arquivos temporários
+*.swp
+*.swo
+
+# VSCode (caso use)
+.vscode/
+
+# Teste de cobertura
+jacoco.exec
+
+# Crash logs do Java
+hs_err_pid*
+
+# Arquivos de dump
+dump.rdb
+
+
+# Banco de dados local
+/postgres-data/
