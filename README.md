@@ -9,6 +9,9 @@ Tecnologias
 - Angular 
 
 Como Executar o projeto com Docker
+ 
+**Segurança:** Este projeto utiliza variáveis de ambiente para configuração do banco de dados.  
+> Para isso, edite o arquivo `.env` com suas credenciais locais a partir do modelo `.env.example`.
 
 Clone o repositório:
    ```bash
